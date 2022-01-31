@@ -380,6 +380,13 @@ public class TileEntityProcessingArray extends RecipeMapMultiblockController {
 
 		public void invalidate() {
 			this.lastRecipeIndex = 0;
+			this.machineItemStack = null;
+			this.oldMachineStack = null;
+			this.recipeMap = null;
+			this.machineVoltage = 0L;
+			this.machineTier = 0;
+			this.numberOfMachines = 0;
+			this.numberOfOperations = 0;
 		}
 
 		//Finds the Recipe Map of the passed Machine Stack and checks if it is a valid Recipe Map
