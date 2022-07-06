@@ -677,3 +677,763 @@ gregtech.machine.crate.tungstensteel.name=钨钢板条箱
 
 fluid.tile.water=水
 fluid.tile.lava=岩浆
+
+## Shadows of Greg zh_cn lang file
+
+## Item Tooltips
+
+# Board Tooltips
+metaitem.board.coated.tooltip=一个基础基板
+metaitem.board.epoxy.tooltip=一个进阶基板
+metaitem.board.fiber_reinforced.tooltip=一个高级基板
+metaitem.board.multilayer.fiber_reinforced.tooltip=一个精英基板
+metaitem.board.phenolic.tooltip=一个不错的电路板基板
+metaitem.board.plastic.tooltip=一个不错的电路板基板
+metaitem.board.wetware.tooltip=能够维持生命活力的电路板基板
+
+# Electronic Components Tooltips
+metaitem.component.diode.tooltip=基础电子元件
+metaitem.component.capacitor.tooltip=电子元件
+metaitem.component.resistor.tooltip=基础电子元件
+metaitem.component.small_coil.tooltip=基础电子元件
+metaitem.component.smd.capacitor.tooltip=电子元件
+metaitem.component.smd.diode.tooltip=电子元件
+metaitem.component.smd.resistor.tooltip=电子元件
+metaitem.component.smd.transistor.tooltip=电子元件
+metaitem.component.transistor.tooltip=基础电子元件
+
+# Wafers and Components Tooltips
+metaitem.boule.silicon.tooltip=电路元件
+metaitem.boule.glowstone.tooltip=电路元件
+metaitem.boule.naquadah.tooltip=电路元件
+metaitem.plate.qbit_central_processing_unit.tooltip=Quantum CPU
+metaitem.wafer.silicon.tooltip=电路元件
+metaitem.wafer.glowstone.tooltip=电路元件
+metaitem.wafer.naquadah.tooltip=电路元件
+
+# Circuit Tooltips
+metaitem.circuit.basic.tooltip=一个基础的电路板
+metaitem.circuit.good.tooltip=A Good Circuit
+metaitem.circuit.advanced.tooltip=一个不错的电路板
+metaitem.circuit.wetware_mainframe.tooltip=An Infinite Circuit
+metaitem.circuit.vacuum_tube.tooltip=一个极其简易的电路板
+metaitem.circuit.advanced_parts.tooltip=A Basic Circuit
+
+# Item Tooltips
+metaitem.compressed.fireclay.tooltip=砖块状
+metaitem.stemcells.tooltip=智慧的原料
+metaitem.component.glass.fiber.tooltip=B(SiO₂)₇
+metaitem.component.petri.dish.tooltip=用以培养细胞
+
+
+## Item Names/Renames
+
+# Renaming Boules
+metaitem.boule.silicon.name=单晶硅
+metaitem.boule.glowstone.name=萤石掺杂的单晶硅
+metaitem.boule.naquadah.name=硅岩掺杂的单晶硅
+
+# Naming Multiblock Parts
+tile.ga_multiblock_casing.tungstensteel_gearbox_casing.name=装配线机械方块
+tile.ga_transparent_casing.reinforced_glass.name=强化玻璃
+
+# Naming Batteries
+metaitem.energy.module.name=Energy Module
+metaitem.energy.cluster.name=Energy Cluster
+metaitem.max.battery.name=MAX Battery
+
+# Naming Items
+metaitem.component.petri.dish.name=培养皿
+metaitem.compressed.clay.name=砖坯
+metaitem.stemcells.name=干细胞
+metaitem.credit.darmstadtium.name=中子素币
+metaitem.rubber_drop.name=粘性树脂
+metaitem.component.glass.fiber.name=玻璃纤维
+metaitem.compressed.coke.clay.name=焦炉砖坯
+
+# Renaming Circuits
+metaitem.circuit.integrated.name=编程电路
+metaitem.circuit.advanced.name=集成处理器
+metaitem.circuit.crystal_processor.name=Crystal Processor
+metaitem.circuit.nano_processor.name=Nano Processor
+metaitem.circuit.quantum_processor.name=Quantum Processor
+metaitem.processor.neuro.name=Neuro Processing Unit
+
+# Naming Schematics
+metaitem.schematic.dust.name=示意图(粉末)
+metaitem.schematic.3by3.name=示意图(3x3)
+metaitem.schematic.2by2.name=S示意图 (2x2)
+metaitem.schematic.name=空白示意图
+
+# Renaming Rubber Components
+item.epoxid.ingot=环氧树脂条
+item.epoxid.dustTiny=小撮环氧树脂末
+item.epoxid.dustSmall=小堆环氧树脂末
+item.epoxid.dust=环氧树脂末
+item.epoxid.nugget=环氧树脂颗粒
+item.epoxid.plate=环氧树脂片
+item.epoxid.foil=薄环氧树脂片
+item.reinforced_epoxy_resin.ingot=纤维强化的环氧树脂条
+item.reinforced_epoxy_resin.dustTiny=小撮纤维强化的环氧树脂末
+item.reinforced_epoxy_resin.dustSmall=小堆纤维强化的环氧树脂末
+item.reinforced_epoxy_resin.dust=纤维强化的环氧树脂末
+item.reinforced_epoxy_resin.nugget=纤维强化的环氧树脂颗粒
+item.reinforced_epoxy_resin.plate=纤维强化的环氧树脂片
+item.borosilicate_glass.ingot=硼硅玻璃条
+item.borosilicate_glass.dustTiny=小撮硼硅玻璃末
+item.borosilicate_glass.dustSmall=小堆硼硅玻璃末
+item.borosilicate_glass.dust=硼硅玻璃末
+item.borosilicate_glass.nugget=硼硅玻璃颗粒
+item.polyvinyl_chloride.ingot=聚氯乙烯条
+item.polyvinyl_chloride.dustTiny=小撮聚氯乙烯末
+item.polyvinyl_chloride.dustSmall=小堆聚氯乙烯末
+item.polyvinyl_chloride.dust=聚氯乙烯末
+item.polyvinyl_chloride.nugget=聚氯乙烯颗粒
+item.polyvinyl_chloride.plateDense=致密聚氯乙烯片
+item.polyvinyl_chloride.plate=聚氯乙烯片
+item.polyvinyl_chloride.foil=薄聚氯乙烯片
+item.silicon_rubber.ingot=硅橡胶条
+item.silicon_rubber.dustTiny=小撮硅橡胶末
+item.silicon_rubber.dustSmall=小堆硅橡胶末
+item.silicon_rubber.dust=硅橡胶末
+item.silicon_rubber.nugget=硅橡胶颗粒
+item.silicon_rubber.plate=硅橡胶片
+item.silicon_rubber.foil=薄硅橡胶片
+item.polystyrene.ingot=聚苯乙烯条
+item.polystyrene.dustTiny=小撮聚苯乙烯末
+item.polystyrene.dustSmall=小堆聚苯乙烯末
+item.polystyrene.dust=聚苯乙烯末
+item.polystyrene.nugget=聚苯乙烯颗粒
+item.polystyrene.plate=聚苯乙烯片
+item.polystyrene.foil=薄聚苯乙烯片
+item.styrene_butadiene_rubber.ingot=丁苯橡胶条
+item.styrene_butadiene_rubber.dustTiny=小撮丁苯橡胶末
+item.styrene_butadiene_rubber.dustSmall=小堆丁苯橡胶末
+item.styrene_butadiene_rubber.dust=丁苯橡胶末
+item.styrene_butadiene_rubber.nugget=丁苯橡胶颗粒
+item.styrene_butadiene_rubber.plate=丁苯橡胶片
+
+# Renaming Meat parts
+item.meat.dustTiny=小撮肉末
+item.meat.dustSmall=小堆肉末
+item.meat.dust=肉末
+
+
+## Higher Tier Machines
+
+# Cluster Mill
+recipemap.cluster_mill.name=多辊式轧机
+gtadditions.machine.cluster_mill.lv.name=基础多辊式轧机
+gtadditions.machine.cluster_mill.mv.name=进阶多辊式轧机
+gtadditions.machine.cluster_mill.hv.name=进阶多辊式轧机 II
+gtadditions.machine.cluster_mill.ev.name=进阶多辊式轧机 III
+gtadditions.machine.cluster_mill.iv.name=进阶多辊式轧机 IV
+gtadditions.machine.cluster_mill.luv.name=进阶多辊式轧机 V
+gtadditions.machine.cluster_mill.zpm.name=进阶多辊式轧机 VI
+gtadditions.machine.cluster_mill.uv.name=进阶多辊式轧机 VII
+
+# Electric Furnace
+gtadditions.machine.electric_furnace.iv.name=热应激发生器
+gtadditions.machine.electric_furnace.luv.name=热应激发生器 II
+gtadditions.machine.electric_furnace.zpm.name=热应激发生器 III
+gtadditions.machine.electric_furnace.uv.name=热应激发生器 IV
+
+# Macerator
+gtadditions.machine.macerator.iv.name=Universal Pulverizer II
+gtadditions.machine.macerator.iv.tooltip=矿石粉碎者 9001
+gtadditions.machine.macerator.luv.name=Universal Pulverizer III
+gtadditions.machine.macerator.luv.tooltip=矿石粉碎者 9002
+gtadditions.machine.macerator.zpm.name=Universal Pulverizer IV
+gtadditions.machine.macerator.zpm.tooltip=矿石粉碎者 9003
+gtadditions.machine.macerator.uv.name=Universal Pulverizer V
+gtadditions.machine.macerator.uv.tooltip=矿石粉碎者 9004
+
+# Alloy Smelter
+gtadditions.machine.alloy_smelter.iv.name=进阶合金炉 IV
+gtadditions.machine.alloy_smelter.luv.name=进阶合金炉 V
+gtadditions.machine.alloy_smelter.zpm.name=进阶合金炉 VI
+gtadditions.machine.alloy_smelter.uv.name=进阶合金炉 VII
+
+# Amplifabricator
+gtadditions.machine.amplifab.iv.name=进阶UU增幅液生产器 IV
+gtadditions.machine.amplifab.luv.name=进阶UU增幅液生产器 V
+gtadditions.machine.amplifab.zpm.name=进阶UU增幅液生产器 VI
+gtadditions.machine.amplifab.uv.name=进阶UU增幅液生产器 VII
+
+# Arc Furnace
+gtadditions.machine.arc_furnace.iv.name=进阶电弧炉 IV
+gtadditions.machine.arc_furnace.luv.name=进阶电弧炉 V
+gtadditions.machine.arc_furnace.zpm.name=进阶电弧炉 VI
+gtadditions.machine.arc_furnace.uv.name=进阶电弧炉 VII
+
+# Assembling Machine
+gregtech.machine.assembler.iv.name=进阶组装机 IV
+gtadditions.machine.assembler.luv.name=进阶组装机 V
+gtadditions.machine.assembler.zpm.name=进阶组装机 VI
+gtadditions.machine.assembler.uv.name=进阶组装机 VII
+
+# Autoclave
+gregtech.machine.autoclave.iv.name=进阶高压釜 IV
+gtadditions.machine.autoclave.luv.name=进阶高压釜 V
+gtadditions.machine.autoclave.zpm.name=进阶高压釜 VI
+gtadditions.machine.autoclave.uv.name=进阶高压釜 VII
+
+# Bender
+gtadditions.machine.bender.iv.name=进阶卷板机 IV
+gtadditions.machine.bender.luv.name=进阶卷板机 V
+gtadditions.machine.bender.zpm.name=进阶卷板机 VI
+gtadditions.machine.bender.uv.name=进阶卷板机 VII
+
+# Brewery
+gtadditions.machine.brewery.iv.name=进阶酿造室 IV
+gtadditions.machine.brewery.luv.name=进阶酿造室 V
+gtadditions.machine.brewery.zpm.name=进阶酿造室 VI
+gtadditions.machine.brewery.uv.name=进阶酿造室 VII
+
+# Canner
+gtadditions.machine.canner.iv.name=进阶装罐机 IV
+gtadditions.machine.canner.luv.name=进阶装罐机 V
+gtadditions.machine.canner.zpm.name=进阶装罐机 VI
+gtadditions.machine.canner.uv.name=进阶装罐机 VII
+
+# Centrifuge
+gtadditions.machine.centrifuge.iv.name=旋风分子离心机
+gtadditions.machine.centrifuge.iv.tooltip=Molecular Cyclone
+gtadditions.machine.centrifuge.luv.name=旋风分子离心机 II
+gtadditions.machine.centrifuge.luv.tooltip=Molecular Cyclone
+gtadditions.machine.centrifuge.zpm.name=旋风分子离心机 III
+gtadditions.machine.centrifuge.zpm.tooltip=Molecular Cyclone
+gtadditions.machine.centrifuge.uv.name=旋风分子离心机 IV
+gtadditions.machine.centrifuge.uv.tooltip=Molecular Cyclone
+
+# Chemical Bath
+gtadditions.machine.chemical_bath.iv.name=进阶化学浸洗器 IV
+gtadditions.machine.chemical_bath.luv.name=进阶化学浸洗器 V
+gtadditions.machine.chemical_bath.zpm.name=进阶化学浸洗器 VI
+gtadditions.machine.chemical_bath.uv.name=进阶化学浸洗器 VII
+
+# Chemical Reactor
+gtadditions.machine.chemical_reactor.iv.name=进阶化学反应釜 IV
+gtadditions.machine.chemical_reactor.luv.name=进阶化学反应釜 V
+gtadditions.machine.chemical_reactor.zpm.name=进阶化学反应釜 VI
+gtadditions.machine.chemical_reactor.uv.name=进阶化学反应釜 VII
+
+# Compressor
+gregtech.machine.compressor.ev.name=进阶压缩机 III
+gtadditions.machine.compressor.iv.name=奇点压缩机
+gtadditions.machine.compressor.luv.name=奇点压缩机 II
+gtadditions.machine.compressor.zpm.name=奇点压缩机 III
+gtadditions.machine.compressor.uv.name=奇点压缩机 IV
+
+# Cutter
+gtadditions.machine.cutter.iv.name=进阶板材切割机 IV
+gtadditions.machine.cutter.luv.name=进阶板材切割机 V
+gtadditions.machine.cutter.zpm.name=进阶板材切割机 VI
+gtadditions.machine.cutter.uv.name=进阶板材切割机 VII
+
+# Distillery
+gtadditions.machine.distillery.iv.name=进阶蒸馏室 IV
+gtadditions.machine.distillery.luv.name=进阶蒸馏室 V
+gtadditions.machine.distillery.zpm.name=进阶蒸馏室 VI
+gtadditions.machine.distillery.uv.name=进阶蒸馏室 VII
+
+# Electrolyzer
+gregtech.machine.electrolyzer.ev.name=进阶电解机 III
+gtadditions.machine.electrolyzer.iv.name=Advanced Electrolyzer IV
+gtadditions.machine.electrolyzer.iv.tooltip=分子分解者E-4905
+gtadditions.machine.electrolyzer.luv.name=Elite Electrolyzer
+gtadditions.machine.electrolyzer.luv.tooltip=分子分解者E-4906
+gtadditions.machine.electrolyzer.zpm.name=Elite Electrolyzer II
+gtadditions.machine.electrolyzer.zpm.tooltip=分子分解者E-4907
+gtadditions.machine.electrolyzer.uv.name=Elite Electrolyzer III
+gtadditions.machine.electrolyzer.uv.tooltip=分子分解者E-4908
+
+# Electromagnetic Separator
+gtadditions.machine.electromagnetic_separator.iv.name=进阶电磁离析机 IV
+gtadditions.machine.electromagnetic_separator.luv.name=进阶电磁离析机 V
+gtadditions.machine.electromagnetic_separator.zpm.name=进阶电磁离析机 VI
+gtadditions.machine.electromagnetic_separator.uv.name=进阶电磁离析机 VII
+
+# Extractor
+gregtech.machine.extractor.ev.name=进阶提取机 III
+gtadditions.machine.extractor.iv.name=真空提取机
+gtadditions.machine.extractor.luv.name=真空提取机 II
+gtadditions.machine.extractor.zpm.name=真空提取机 III
+gtadditions.machine.extractor.uv.name=真空提取机 IV
+
+# Extruder
+gtadditions.machine.extruder.iv.name=进阶压模器 IV
+gtadditions.machine.extruder.luv.name=进阶压模器 V
+gtadditions.machine.extruder.zpm.name=进阶压模器 VI
+gtadditions.machine.extruder.uv.name=进阶压模器 VII
+
+# Fermenter
+gtadditions.machine.fermenter.iv.name=进阶发酵槽 IV
+gtadditions.machine.fermenter.luv.name=进阶发酵槽 V
+gtadditions.machine.fermenter.zpm.name=进阶发酵槽 VI
+gtadditions.machine.fermenter.uv.name=进阶发酵槽 VII
+
+# Fluid Canner
+gtadditions.machine.fluid_canner.iv.name=音速流体灌装机
+gtadditions.machine.fluid_canner.luv.name=音速流体灌装机 II
+gtadditions.machine.fluid_canner.zpm.name=音速流体灌装机 III
+gtadditions.machine.fluid_canner.uv.name=音速流体灌装机 IV
+
+# Fluid Extractor
+gtadditions.machine.fluid_extractor.iv.name=进阶流体提取机 IV
+gtadditions.machine.fluid_extractor.luv.name=进阶流体提取机 V
+gtadditions.machine.fluid_extractor.zpm.name=进阶流体提取机 VI
+gtadditions.machine.fluid_extractor.uv.name=进阶流体提取机 VII
+
+# Fluid Heater
+gtadditions.machine.fluid_heater.iv.name=进阶流体加热器 IV
+gtadditions.machine.fluid_heater.luv.name=进阶流体加热器 V
+gtadditions.machine.fluid_heater.zpm.name=进阶流体加热器 VI
+gtadditions.machine.fluid_heater.uv.name=进阶流体加热器 VII
+
+# Fluid Solidifier
+gtadditions.machine.fluid_solidifier.iv.name=进阶流体固化器 IV
+gtadditions.machine.fluid_solidifier.luv.name=进阶流体固化器 V
+gtadditions.machine.fluid_solidifier.zpm.name=进阶流体固化器 VI
+gtadditions.machine.fluid_solidifier.uv.name=进阶流体固化器 VII
+
+# Forge Hammer
+gtadditions.machine.forge_hammer.iv.name=进阶锻造锤 IV
+gtadditions.machine.forge_hammer.luv.name=进阶锻造锤 V
+gtadditions.machine.forge_hammer.zpm.name=进阶锻造锤 VI
+gtadditions.machine.forge_hammer.uv.name=进阶锻造锤 VII
+
+# Forming Press
+gtadditions.machine.forming_press.iv.name=进阶冲压机床 IV
+gtadditions.machine.forming_press.luv.name=进阶冲压机床 V
+gtadditions.machine.forming_press.zpm.name=进阶冲压机床 VI
+gtadditions.machine.forming_press.uv.name=进阶冲压机床 VII
+
+# Lathe
+gtadditions.machine.lathe.iv.name=进阶车床 IV
+gtadditions.machine.lathe.luv.name=进阶车床 V
+gtadditions.machine.lathe.zpm.name=进阶车床 VI
+gtadditions.machine.lathe.uv.name=进阶车床 VII
+
+# Microwave
+gtadditions.machine.microwave.iv.name=进阶微波炉 IV
+gtadditions.machine.microwave.luv.name=进阶微波炉 V
+gtadditions.machine.microwave.zpm.name=进阶微波炉 VI
+gtadditions.machine.microwave.uv.name=进阶微波炉 VII
+
+# Mixer
+gtadditions.machine.mixer.iv.name=进阶搅拌机 IV
+gtadditions.machine.mixer.luv.name=进阶搅拌机 V
+gtadditions.machine.mixer.zpm.name=进阶搅拌机 VI
+gtadditions.machine.mixer.uv.name=进阶搅拌机 VII
+
+# Ore Washer
+gtadditions.machine.ore_washer.iv.name=Advanced Ore Washing Plant IV
+gtadditions.machine.ore_washer.iv.tooltip=波轮洗矿厂I-360
+gtadditions.machine.ore_washer.luv.name=Elite Ore Washing Plant
+gtadditions.machine.ore_washer.luv.tooltip=波轮洗矿厂I-720
+gtadditions.machine.ore_washer.zpm.name=Elite Ore Washing Plant II
+gtadditions.machine.ore_washer.zpm.tooltip=波轮洗矿厂I-1080
+gtadditions.machine.ore_washer.uv.name=Elite Ore Washing Plant III
+gtadditions.machine.ore_washer.uv.tooltip=波轮洗矿厂I-1440
+
+# Packer
+gtadditions.machine.packer.iv.name=装箱者
+gtadditions.machine.packer.luv.name=装箱者 II
+gtadditions.machine.packer.zpm.name=装箱者 III
+gtadditions.machine.packer.uv.name=装箱者 IV
+
+# Unpacker
+gtadditions.machine.unpacker.iv.name=拆箱者
+gtadditions.machine.unpacker.luv.name=拆箱者 II
+gtadditions.machine.unpacker.zpm.name=拆箱者 III
+gtadditions.machine.unpacker.uv.name=拆箱者 IV
+
+# Plasma Arc Furnace
+gtadditions.machine.plasma_arc_furnace.iv.name=进阶等离子电弧炉 IV
+gtadditions.machine.plasma_arc_furnace.luv.name=进阶等离子电弧炉 V
+gtadditions.machine.plasma_arc_furnace.zpm.name=进阶等离子电弧炉 VI
+gtadditions.machine.plasma_arc_furnace.uv.name=进阶等离子电弧炉 VII
+
+# Polarizer
+gtadditions.machine.polarizer.iv.name=进阶两极磁化机 IV
+gtadditions.machine.polarizer.luv.name=进阶两极磁化机 V
+gtadditions.machine.polarizer.zpm.name=进阶两极磁化机 VI
+gtadditions.machine.polarizer.uv.name=进阶两极磁化机 VII
+
+# Laser Engraver
+gtadditions.machine.laser_engraver.iv.name=进阶精密激光蚀刻机 IV
+gtadditions.machine.laser_engraver.luv.name=进阶精密激光蚀刻机 V
+gtadditions.machine.laser_engraver.zpm.name=进阶精密激光蚀刻机 VI
+gtadditions.machine.laser_engraver.uv.name=进阶精密激光蚀刻机 VII
+
+# Shifter
+gtadditions.machine.sifter.iv.name=进阶筛选机 IV
+gtadditions.machine.sifter.luv.name=进阶筛选机 V
+gtadditions.machine.sifter.zpm.name=进阶筛选机 VI
+gtadditions.machine.sifter.uv.name=进阶筛选机 VII
+
+# Thermal Centrifuge
+gtadditions.machine.thermal_centrifuge.iv.name=Advanced Thermal Centrifuge IV
+gtadditions.machine.thermal_centrifuge.iv.tooltip=烈焰分离厂T-6350
+gtadditions.machine.thermal_centrifuge.luv.name=Elite Thermal Centrifuge
+gtadditions.machine.thermal_centrifuge.luv.tooltip=烈焰分离厂T-6360
+gtadditions.machine.thermal_centrifuge.zpm.name=Elite Thermal Centrifuge II
+gtadditions.machine.thermal_centrifuge.zpm.tooltip=烈焰分离厂T-6370
+gtadditions.machine.thermal_centrifuge.uv.name=Elite Thermal Centrifuge III
+gtadditions.machine.thermal_centrifuge.uv.tooltip=烈焰分离厂T-6380
+
+# Wiremill
+gtadditions.machine.wiremill.iv.name=进阶线材轧机 IV
+gtadditions.machine.wiremill.luv.name=进阶线材轧机 V
+gtadditions.machine.wiremill.zpm.name=进阶线材轧机 VI
+gtadditions.machine.wiremill.uv.name=进阶线材轧机 VII
+
+# Naquadah Reactor
+recipemap.naquadah_reactor.name=硅岩反应堆燃料
+gtadditions.machine.naquadah_reactor.mk1.name=硅岩反应堆 Mk I
+gtadditions.machine.naquadah_reactor.mk2.name=硅岩反应堆 Mk II
+gtadditions.machine.naquadah_reactor.mk3.name=硅岩反应堆 Mk III
+gtadditions.machine.naquadah_reactor.mk4.name=硅岩反应堆 Mk IV
+
+# Mass Fabricator
+recipemap.mass_fab.name=质量发生器
+gtadditions.machine.mass_fab.lv.name=基础质量发生器
+gtadditions.machine.mass_fab.mv.name=进阶质量发生器
+gtadditions.machine.mass_fab.hv.name=进阶质量发生器 II
+gtadditions.machine.mass_fab.ev.name=进阶质量发生器 III
+gtadditions.machine.mass_fab.iv.name=进阶质量发生器 IV
+gtadditions.machine.mass_fab.luv.name=进阶质量发生器 V
+gtadditions.machine.mass_fab.zpm.name=进阶质量发生器 VI
+gtadditions.machine.mass_fab.uv.name=进阶质量发生器 VII
+
+# Replicator
+gtadditions.machine.replicator.lv.name=基础复制机
+gtadditions.machine.replicator.lv.tooltip=生产最纯净的元素
+gtadditions.machine.replicator.mv.name=进阶复制机
+gtadditions.machine.replicator.mv.tooltip=生产最纯净的元素
+gtadditions.machine.replicator.hv.name=进阶复制机 II
+gtadditions.machine.replicator.hv.tooltip=生产最纯净的元素
+gtadditions.machine.replicator.ev.name=进阶复制机 III
+gtadditions.machine.replicator.ev.tooltip=生产最纯净的元素
+gtadditions.machine.replicator.iv.name=进阶复制机 IV
+gtadditions.machine.replicator.iv.tooltip=生产最纯净的元素
+gtadditions.machine.replicator.luv.name=进阶复制机 V
+gtadditions.machine.replicator.luv.tooltip=生产最纯净的元素
+gtadditions.machine.replicator.zpm.name=进阶复制机 VI
+gtadditions.machine.replicator.zpm.tooltip=生产最纯净的元素
+gtadditions.machine.replicator.uv.name=进阶复制机 VII
+gtadditions.machine.replicator.uv.tooltip=生产最纯净的元素
+
+# Bundler
+recipemap.bundler.name=Wire Bundling
+gtadditions.machine.bundler.lv.name=Basic Bundler
+gtadditions.machine.bundler.mv.name=Advanced Bundler
+gtadditions.machine.bundler.hv.name=Advanced Bundler II
+gtadditions.machine.bundler.ev.name=Advanced Bundler III
+gtadditions.machine.bundler.iv.name=Advanced Bundler IV
+gtadditions.machine.bundler.luv.name=Elite Bundler
+gtadditions.machine.bundler.luv.tooltip=Lapinotron 3000
+gtadditions.machine.bundler.zpm.name=Elite Bundler II
+gtadditions.machine.bundler.zpm.tooltip=Lapinotron 6000
+gtadditions.machine.bundler.uv.name=Elite Bundler III
+gtadditions.machine.bundler.uv.tooltip=Lapinotron 9000
+
+# Machine Access Interface
+gtadditions.machine.machine_access_interface.name=Machine Access Interface
+gtadditions.machine.machine_access_interface.tooltip=Specialized Access Bus required for the Processing Array to hold the machines the Processing Array is operating on. Only holds valid machines.
+
+# Pump
+gtadditions.machine.pump.iv.name=进阶泵 IV
+gtadditions.machine.pump.luv.name=进阶泵 V
+gtadditions.machine.pump.zpm.name=进阶泵 VI
+gtadditions.machine.pump.uv.name=进阶泵 VII
+
+# Air Collector
+gregtech.machine.air_collector.ev.name=进阶空气收集器 III
+gtadditions.machine.air_collector.iv.name=大气收集器
+gtadditions.machine.air_collector.luv.name=大气收集器 II
+
+
+## Multiblocks
+
+gtadditions.multiblock.preview.location_end=very end
+
+# Plasma Turbine
+recipemap.plasma_generator.name=等离子涡轮燃料
+
+# Fusion Reactor
+gtadditions.machine.fusion_reactor.luv.name=核聚变反应堆控制电脑 Mk I
+gtadditions.machine.fusion_reactor.zpm.name=核聚变反应堆控制电脑 Mk II
+gtadditions.machine.fusion_reactor.uv.name=核聚变反应堆控制电脑 Mk III
+gregtech.multiblock.fusion_reactor_mk1.description=核聚变反应堆 Mk I 是一台可以通过聚变生产重元素的大型多方块机器。它可以使用LuV，ZPM或者UV等级的能源仓。每一个能源仓可以增加10MEU的能量缓存。
+gregtech.multiblock.fusion_reactor_mk2.description=核聚变反应堆 Mk II 是一台可以通过聚变生产重元素的大型多方块机器。它可以使用ZPM或者UV等级的能源仓。每一个能源仓可以增加20MEU的能量缓存。
+gregtech.multiblock.fusion_reactor_mk3.description=核聚变反应堆 Mk III 是一台可以通过聚变生产重元素的大型多方块机器。它只能使用UV等级的能源仓。每一个能源仓可以增加40MEU的能量缓存。
+gregtech.multiblock.fusion_reactor.heat=热力: %d
+
+# Processing Array
+recipemap.processing_array.name=处理数组
+gtadditions.machine.processing_array.name=处理数组
+gregtech.multiblock.processing_array.description=处理阵列将多达 %d 个单块机器组合在一个多块中，有效地简化了自动化。
+gtadditions.multiblock.processing_array.distinct=不同的总线：
+gtadditions.multiblock.processing_array.distinct2=[点击 %s 切换]
+gtadditions.multiblock.processing_array.distinct.yes=§a是
+gtadditions.multiblock.processing_array.distinct.no=§cNo
+gtadditions.multiblock.processing_array.distinct.info=如果启用，每条总线将被视为彼此完全不同以进行配方查找。 适用于挤出机形状、激光透镜等。
+gtadditions.multiblock.processing_array.locked=§c机器舱口锁定
+
+# Assembly Line
+recipemap.assembly_line.name=装配线
+gtadditions.machine.assembly_line.name=装配线
+gregtech.multiblock.assembly_line.description=装配线是一台大型多方块机器，包含有5到16片相似的重复结构。从理论上来讲，它是一个可以生产高级元件的大型的组装机。
+
+
+## Tools
+metaitem.tool.bending_cylinder.name=%s弯曲绕筒
+metaitem.tool.bending_cylinder_small.name=小型%s弯曲绕筒
+
+
+## Materials
+item.material.oreprefix.plateCurved=弯曲%s板
+material.fish_oil=鱼油
+material.meat=肉
+material.neutral_matter=中子流质
+material.positive_matter=质子流质
+material.neutronium=中子素
+material.lignite_coke=褐焦煤
+material.coke=焦煤
+
+
+## Crates and Drums
+gtadditions.machine.drum.wood.name=木桶
+gtadditions.machine.drum.bronze.name=青铜桶
+gtadditions.machine.drum.steel.name=钢桶
+gtadditions.machine.drum.stainless_steel.name=不锈钢桶
+gtadditions.machine.drum.titanium.name=钛桶
+gtadditions.machine.drum.tungstensteel.name=钨钢桶
+
+gtadditions.machine.crate.wood.name=木板条箱
+gtadditions.machine.crate.bronze.name=青铜板条箱
+gtadditions.machine.crate.steel.name=钢板条箱
+gtadditions.machine.crate.stainless_steel.name=不锈钢板条箱
+gtadditions.machine.crate.titanium.name=钛板条箱
+gtadditions.machine.crate.tungstensteel.name=钨钢板条箱
+
+
+## Forestry Integration
+
+# Combs
+item.gtadditions:comb.lignite.name=褐煤蜂窝
+item.gtadditions:comb.coal.name=煤蜂窝
+item.gtadditions:comb.rubbery.name=粘性蜂窝
+item.gtadditions:comb.oil.name=石油蜂窝
+item.gtadditions:comb.stone.name=石头蜂窝
+item.gtadditions:comb.certus.name=赛特斯蜂窝
+item.gtadditions:comb.redstone.name=红石蜂窝
+item.gtadditions:comb.lapis.name=青金石蜂窝
+item.gtadditions:comb.ruby.name=红宝石蜂窝
+item.gtadditions:comb.sapphire.name=蓝宝石蜂窝
+item.gtadditions:comb.diamond.name=钻石蜂窝
+item.gtadditions:comb.olivine.name=橄榄石蜂窝
+item.gtadditions:comb.emerald.name=绿宝石蜂窝
+item.gtadditions:comb.slag.name=矿渣蜂窝
+item.gtadditions:comb.coppon.name=铜蜂窝
+item.gtadditions:comb.tine.name=锡蜂窝
+item.gtadditions:comb.plumbia.name=铅蜂窝
+item.gtadditions:comb.ferru.name=铁蜂窝
+item.gtadditions:comb.steeldust.name=钢粉蜂窝
+item.gtadditions:comb.nickeldust.name=镍蜂窝
+item.gtadditions:comb.galvania.name=锌蜂窝
+item.gtadditions:comb.argentia.name=银蜂窝
+item.gtadditions:comb.aurelia.name=金蜂窝
+item.gtadditions:comb.bauxia.name=铝土蜂窝
+item.gtadditions:comb.pyrolusium.name=锰蜂窝
+item.gtadditions:comb.titanium.name=钛蜂窝
+item.gtadditions:comb.chromium.name=铬蜂窝
+item.gtadditions:comb.scheelinium.name=钨蜂窝
+item.gtadditions:comb.platina.name=铂蜂窝
+item.gtadditions:comb.quantaria.name=量子蜂窝
+item.gtadditions:comb.urania.name=铀蜂窝
+item.gtadditions:comb.plutonium.name=钚蜂窝
+item.gtadditions:comb.stargatium.name=硅岩蜂窝
+
+# Bees
+for.bees.species.slime=史莱姆
+for.bees.species.lignite=褐煤
+for.bees.species.rubber=橡胶
+
+# Electrodes
+metaitem.electrode.apatite.name=磷灰石电极
+metaitem.electrode.blaze.name=炽热电极
+metaitem.electrode.bronze.name=青铜电极
+metaitem.electrode.copper.name=铜电极
+metaitem.electrode.diamond.name=金刚石电极
+metaitem.electrode.emerald.name=翡翠电极
+metaitem.electrode.ender.name=末影电极
+metaitem.electrode.gold.name=金电极
+metaitem.electrode.iron.name=铁电极
+metaitem.electrode.lapis.name=青金石电极
+metaitem.electrode.obsidian.name=黑曜石电极
+metaitem.electrode.orchid.name=兰花电极
+metaitem.electrode.rubber.name=橡胶电极
+metaitem.electrode.tin.name=锡电极
+
+
+## Tinker's Construct Integration
+
+material.aluminium.name=铝
+material.chrome.name=铬
+material.iridium.name=铱
+material.manganese.name=锰
+material.molybdenum.name=钼
+material.neodymium.name=钕
+material.darmstadtium.name=Darmstadtium
+material.osmium.name=锇
+material.palladium.name=钯
+material.thorium.name=钍
+material.titanium.name=钛
+material.tungsten.name=钨
+material.uranium.name=铀
+material.uranium235.name=铀-235
+material.brass.name=黄铜
+material.invar.name=Invar
+material.magnalium.name=镁合金
+material.stainless_steel.name=不锈钢
+material.ultimet.name=Ultimet
+material.wrought_iron.name=锻铁
+material.osmiridium.name=锇
+material.sterling_silver.name=纯银
+material.rose_gold.name=玫瑰金
+material.black_bronze.name=黑青铜
+material.bismuth_bronze.name=铋青铜
+material.black_steel.name=黑钢
+material.red_steel.name=红钢
+material.blue_steel.name=蓝钢
+material.damascus_steel.name=大马士革钢
+material.tungsten_steel.name=钨钢
+material.cobalt_brass.name=钴黄铜
+material.tungsten_carbide.name=碳化钨
+material.vanadium_steel.name=钒钢
+material.hssg.name=HSS-G
+material.hsse.name=HSS-E
+material.hsss.name=HSS-S
+material.naquadah.name=Naquadah
+material.naquadah_alloy.name=Naquadah 合金
+material.naquadah_enriched.name=浓缩纳夸达
+material.tritanium.name=三钛
+material.duranium.name=铀
+material.enderium.name=Enderium
+material.neutronium.name=中子
+material.blue_topaz.name=蓝色托帕石
+material.diamond.name=钻石
+material.emerald.name=翡翠
+material.green_sapphire.name=绿色蓝宝石
+material.ruby.name=红宝石
+material.sapphire.name=蓝宝石
+material.tanzanite.name=坦桑石
+material.topaz.name=黄玉
+material.olivine.name=橄榄石
+material.opal.name=蛋白石
+material.amethyst.name=紫水晶
+material.garnet_red.name=红石榴石
+material.garnet_yellow.name=黄色石榴石
+material.vinteum.name=Vinteum
+
+
+# Conflicts between SoG and GTCE lang file
+
+# Either accept the GTCE name and delete the conflict comment, or PR GTCE to update the translation
+# and then delete the conflict comment
+
+# GTCE: for.bees.species.coal=煤炭
+# SoG: for.bees.species.coal=煤
+
+# GTCE: for.bees.species.certus=下界石英
+# SoG: for.bees.species.certus=赛特斯
+
+# GTCE: gregtech.machine.primitive_blast_furnace.bronze.tooltip=结构: 3x3x4 (WxLxH) 整个结构由耐火砖组成(总共 32 块)./n第一层是一个 3x3 正方形./n第二三四层中间没有方块./n土高炉方块位于第二层任意一侧的中间./n没有高炉主体的侧面可以共享.
+# SoG: gregtech.machine.primitive_blast_furnace.bronze.tooltip=结构：3x3x4（宽x长x高）/n结构整体由耐火砖构成（共计32块）。/n第一层为3x3的方形结构。/n第二、三、四层为3x3的中空方形结构。/n本控制器方块放置于第二层的任一侧面的中间。/n在满足上述结构要求的基础之上，高炉之间可以共享方块。
+
+# GTCE: metaitem.rubber_drop.name=橡胶
+# SoG: metaitem.rubber_drop.name=粘性树脂
+
+# GTCE: metaitem.board.coated.name=覆膜电基板
+# SoG: metaitem.board.coated.name=覆膜电路基板
+
+# GTCE: metaitem.board.plastic.name=塑料基板
+# SoG: metaitem.board.plastic.name=塑料电路板基板
+
+# GTCE: metaitem.brick.fireclay.name=耐火砖块
+# SoG: metaitem.brick.fireclay.name=耐火砖
+
+# GTCE: metaitem.circuit.advanced.name=高级电路板
+# SoG: metaitem.circuit.advanced.name=进阶电路板
+
+# GTCE: metaitem.compressed.fireclay.name=压缩粘土
+# SOG: metaitem.compressed.fireclay.name=耐火砖坯
+
+# GTCE: metaitem.plate.nano_central_processing_unit.name=纳米CPU晶元
+# SoG: metaitem.plate.nano_central_processing_unit.name=纳米CPU
+
+# GTCE: metaitem.plate.nano_central_processing_unit.tooltip=纳米级中央处理器
+# SoG: metaitem.plate.nano_central_processing_unit.tooltip=功率电路
+
+# GTCE: metaitem.plate.random_access_memory.tooltip=随机存取存储器
+# SoG: metaitem.plate.random_access_memory.tooltip=集成电路
+
+# GTCE: metaitem.circuit.crystal_processor.tooltip=借晶体蚀刻之便
+# SoG: metaitem.circuit.crystal_processor.tooltip=一个精英电路板
+
+# GTCE: metaitem.circuit.nano_processor.tooltip=比以往更小
+# SoG: metaitem.circuit.nano_processor.tooltip=一个进阶电路板
+
+# GTCE: metaitem.circuit.quantum_processor.tooltip=将量子计算带入现实!
+# SoG: metaitem.circuit.quantum_processor.tooltip=一个高级电路板
+
+# GTCE: metaitem.circuit.wetware_processor.tooltip=你感到湿件处理器在看着你
+# SoG: metaitem.circuit.wetware_processor.tooltip=一个大师级电路板
+
+# GTCE: metaitem.carbon.fibers.name=粗制碳网
+# SoG: metaitem.carbon.fibers.name=碳纤维
+
+# GTCE: metaitem.crystal.central_processing_unit.name=晶体CPU
+# SoG: metaitem.crystal.central_processing_unit.name=晶体处理器
+
+# GTCE: metaitem.neutron_reflector=中子反射板
+# SoG: metaitem.neutron.reflector.name=中子反射器
+
+# GTCE: material.fireclay=耐火砖
+# SoG: material.fireclay=耐火粘土
+
+# GTCE: material.borosilicate_glass=硼玻璃
+# SoG: material.borosilicate_glass=硼硅玻璃
+
+# GTCE: material.vinyl_chloride=乙酸乙烯酯
+# SoG: material.vinyl_chloride=氯乙烯
+
+# GTCE: material.ethenone=Ethenone
+# SoG: material.ethenone=乙烯酮
+
+# GTCE: material.raw_growth_medium=粗培养基
+# SOG: material.raw_growth_medium=培养基原液
+
+# GTCE: material.hydrocracked_light_fuel=加氢裂化的轻燃料
+# SoG: material.hydrocracked_light_fuel=加氢裂化的轻燃油
+
+# GTCE: material.cracked_light_fuel=蒸汽裂化的轻燃料
+# SoG: material.cracked_light_fuel=蒸汽裂化的轻燃油
+
+# GTCE: material.cracked_heavy_fuel=蒸汽裂化的重燃料
+# SoG: material.cracked_heavy_fuel=蒸汽裂化的重燃油
+
+# GTCE: material.antimony_trioxide=三氧化二锑
+# SoG: material.antimony_trioxide=锑华
+
+# GTCE: gregtech.multiblock.coke_oven.description=焦炉是一种用来在游戏前期获取焦煤和杂酚油的多方块结构. 它不需要燃料且有32000mb杂酚油的液体内存. 可以通过焦炉仓访问内部库存.
+# SoG: gregtech.multiblock.coke_oven.description=焦炉是一台用来炼焦的多方块机器。它可以将煤炼成焦煤，褐煤炼成褐焦煤，原木炼成木炭，并同时伴有杂酚油作为副产物。
+
+# GTCE: for.bees.species.coal=煤炭
+# SoG: for.bees.species.coal=煤
+
+# GTCE: for.bees.species.certus=下界石英
+# SOG: for.bees.species.certus=赛特斯
