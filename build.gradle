@@ -20,7 +20,7 @@ compileJava {
 }
 
 minecraft {
-    version = "1.12.2-14.23.5.2836"
+    version = "1.12.2-14.23.5.2768"
     runDir = "run"
     mappings = "stable_39"
 	makeObfSourceJar = false
@@ -32,26 +32,29 @@ minecraft {
 repositories {
     maven {
         name = "Progwml6 maven"
-        url = "http://dvs1.progwml6.com/files/maven/"
+        url = "https://dvs1.progwml6.com/files/maven/"
     }
     maven {
         name = "CraftTweaker Maven"
-        url = "https://maven.blamejared.com/"
+        setUrl("https://maven.blamejared.com/")
+    }
+    maven {
+        name = "ChickenBones maven"
+        url = "http://chickenbones.net/maven/"
     }
     maven {
         name = "Forestry Maven"
         url = "http://maven.ic2.player.to"
     }
-	maven {
-		url "https://maven.tehnut.info"
-	}
 }
 
 dependencies {
-    deobfCompile "CraftTweaker2:CraftTweaker2-MC1120-Main:1.12-4.+"
-    deobfCompile "mezz.jei:jei_1.12.2:+"
-	deobfCompile "mcp.mobius.waila:Hwyla:1.8+"
-    deobfCompile "net.sengir.forestry:forestry_1.12.2:+"
+    deobfCompile "CraftTweaker2:CraftTweaker2-MC1120-Main:1.12-4.1.8.9"
+    compile files('libs/CodeChickenLib-1.12.2-3.2.3.358.jar')
+    deobfCompile "mezz.jei:jei_1.12.2:4.15.0.268"
+    compile files('libs/Hwyla-1.8.26-B41_1.12.2.jar')
+    deobfCompile "net.sengir.forestry:forestry_1.12.2:5.8.0.256"
+    compile files('libs/css.jar')
 }
 
 processResources {
