@@ -757,7 +757,7 @@ metaitem.circuit.advanced.name=集成处理器
 metaitem.circuit.crystal_processor.name=Crystal Processor
 metaitem.circuit.nano_processor.name=Nano Processor
 metaitem.circuit.quantum_processor.name=Quantum Processor
-metaitem.processor.neuro.name=Neuro Processing Unit
+metaitem.processor.neuro.name=神经处理单元
 
 # Naming Schematics
 metaitem.schematic.dust.name=示意图(粉末)
@@ -898,13 +898,10 @@ gtadditions.machine.canner.uv.name=进阶装罐机 VII
 
 # Centrifuge
 gtadditions.machine.centrifuge.iv.name=旋风分子离心机
-gtadditions.machine.centrifuge.iv.tooltip=Molecular Cyclone
 gtadditions.machine.centrifuge.luv.name=旋风分子离心机 II
-gtadditions.machine.centrifuge.luv.tooltip=Molecular Cyclone
 gtadditions.machine.centrifuge.zpm.name=旋风分子离心机 III
-gtadditions.machine.centrifuge.zpm.tooltip=Molecular Cyclone
 gtadditions.machine.centrifuge.uv.name=旋风分子离心机 IV
-gtadditions.machine.centrifuge.uv.tooltip=Molecular Cyclone
+
 
 # Chemical Bath
 gtadditions.machine.chemical_bath.iv.name=进阶化学浸洗器 IV
