@@ -1433,4 +1433,26 @@ material.vinteum.name=Vinteum
 # SoG: for.bees.species.coal=煤
 
 # GTCE: for.bees.species.certus=下界石英
-# SOG: for.bees.species.certus=赛特斯
+# SOG: for.bees.species.certus=赛特斯gtadditions.machine.circuit_assembler.lv.name=Basic Circuit Assembling Machine
+gtadditions.machine.circuit_assembler.mv.name=Advanced Circuit Assembling Machine
+gtadditions.machine.circuit_assembler.hv.name=Advanced Circuit Assembling Machine II
+gtadditions.machine.circuit_assembler.ev.name=Advanced Circuit Assembling Machine III
+gtadditions.machine.circuit_assembler.iv.name=Advanced Circuit Assembling Machine IV
+gtadditions.machine.circuit_assembler.luv.name=Advanced Circuit Assembling Machine V
+gtadditions.machine.circuit_assembler.zpm.name=Advanced Circuit Assembling Machine VI
+gtadditions.machine.circuit_assembler.uv.name=Advanced Circuit Assembling Machine VII
+gtadditions.machine.assembler.iv.name=Advanced Assembling Machine IV
+gtadditions.machine.autoclave.iv.name=Advanced Autoclave IV
+gtadditions.machine.distill_tower.name=[Deprecated] Distillation Tower
+gtadditions.machine.coke_oven.name=[Deprecated] Coke Oven
+gtadditions.machine.cracker_unit.name=[Deprecated] Cracking Unit
+gtadditions.machine.replicator.tooltip=Producing The Purest Of Elements
+gtadditions.machine.coke_item_bus.name=[Deprecated] Coke Oven Chute
+gtadditions.machine.coke_fluid_hatch.name=[Deprecated] Coke Oven Faucet
+metaitem.plank.jungle.name=Jungle Plank
+metaitem.plank.acacia.name=Acacia Plank
+metaitem.plank.darkoak.name=Dark Oak Plank
+metaitem.plank.birch.name=Birch Plank
+metaitem.plank.spruce.name=Spruce Plank
+metaitem.plank.oak.name=Oak Plank
+metaitem.circuit.wetware_super_computer.name=Wetware Supercomputer
